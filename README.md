@@ -1,6 +1,6 @@
 # Online Prediction of Switching Graph Labelings with Cluster Specialists
 
-This is the code accompanying the experimental section of the paper appearing in NeurIPS2019. 
+This is the code accompanying the experimental section of the paper appearing in NeurIPS 2019. 
  
 ## Data Collection & Cleaning
 Data was gathered using the following bash command 
