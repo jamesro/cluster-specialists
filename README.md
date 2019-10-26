@@ -1,7 +1,8 @@
 # Online Prediction of Switching Graph Labelings with Cluster Specialists
 
+This is the code accompanying the experimental section of the paper appearing in NeurIPS2019. 
  
-##Data collection & cleaning
+## Data Collection & Cleaning
 Data was gathered using the following bash command 
 > curl https://data.cityofchicago.org/api/id/eq45-8inv.json?\$select=\`id\`,\`timestamp\`,\`station_name\`,\`address\`,\`total_docks\`,\`docks_in_service\`,\`available_docks\`,\`available_bikes\`,\`percent_full\`,\`status\`,\`latitude\`,\`longitude\`,\`location\`,\`record\`\&\$order=\`timestamp\`\+DESC\&\$limit={xxxxxx\&\$offset={yyyyyy} >> {/path/to/your/file}.json
 
